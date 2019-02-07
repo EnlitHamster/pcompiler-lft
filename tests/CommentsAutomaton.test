@@ -1,0 +1,2 @@
+true "/****/" true "/*a*a*/" true "/*a/**/" true "/**a///a/a**/" true "/**/" true "/*/*/" true "/*/" false "/**/***/" false "aaa/****/aa" false "aa/*a*a*/" false "aaaa" false "/*aa*/" true "*/a" false "a/**/***a" false "a/**/***/a" false "aaa/*/aa" false "a/**//***a" false "aa/*aa" false
+false "/****/" true "/*a*a*/" true "/*a/**/" true "/**a///a/a**/" true "/**/" true "/*/*/" true "/*/" "/**/***/" true "aaa/****/aa" true "aa/*a*a*/" true "aaaa" true "/*aa*/" true "*/a" true "a/**/***a" true "a/**/***/a" true "aaa/*/aa" false "a/**//***a" false "aa/*aa" false

@@ -1,0 +1,4 @@
+false 010101 false 1100011001 true 10214 false
+true 010101 true 1100011001 false 10214 false
+false 0001010001 true 0101001 false _01000 false 000 true 10 false 0302 false
+true 0001010001 false 0101001 true _01000 false 000 false 10 true 0302 false

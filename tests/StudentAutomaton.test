@@ -1,0 +1,4 @@
+false false 123456Bianchi true 654321Rossi true 654321Bianchi false 123456Rossi false 2Bianchi true 122B true 654322 false Rossi false
+true false 123456Bianchi true 654321Rossi true 654321Bianchi false 123456Rossi false 2Bianchi true 122B true 654322 false Rossi false "654321 Rossi" true " 123456 Bianchi " true "1234 56Bianchi" false "123456Bia nchi" false "123456De Gasperi" true
+false true Bianchi123456 true Rossi654321 true Bianchi654321 false Rossi123456 false Bianchi2 true B122 true 654322 false Rossi false
+true true Bianchi123456 true Rossi654321 true Bianchi654321 false Rossi123456 false Bianchi2 true B122 true 654322 false Rossi false "Rossi 654321" true " Bianchi 123456 " true "Bianchi1234 56" false "Bia nchi123456" false "De Gasperi123456" true
