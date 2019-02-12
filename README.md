@@ -3,7 +3,9 @@ This project is a compiler for the P language developped during the Formal Langu
 
 # Usage
 make - builds everything
+
 make clear - clears output files
+
 ./es.sh <paragraph> [exercise] - build and execute an exercise
   
 for more, look @ the code
