@@ -144,7 +144,7 @@ public class Lexer {
 				}
 
 			default:
-				if (Character.isLetter(peek)) {
+				if (Character.isLetter(peek) || peek == '_') {
 					String lexval = "";
 					while (!(peek == ' ' || peek == '\t' || peek == '\n' || peek == '\r' ||
 									 peek == '>' || peek == '<' || peek == '=' || peek == ':' ||
