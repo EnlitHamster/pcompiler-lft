@@ -27,7 +27,7 @@ The translator transforms the input code in actual Java ByteCode generating a .j
 
 # Exercises
 
-## 1 &#9679; Automata
+## 1 &#8226; Automata
 - 1: `Binary` automaton
 - 2: `Id` automaton
 - 3, 4, 5: `Student` automaton
@@ -36,17 +36,17 @@ The translator transforms the input code in actual Java ByteCode generating a .j
 - 9: `Name` automaton
 - 10, 11: `Comments` automaton
 
-## 2 &#9679; Lexing
+## 2 &#8226; Lexing
 See Projects &#8658; Lexer
 
-## 3 &#9679; Parsing
+## 3 &#8226; Parsing
 - 1: `Arithmetic` parser
 - 2: `Parser`
 
-## 4 &#9679; Evaluation
+## 4 &#8226; Evaluation
 See Projects &#8658; ArithmeticEvaluator
 
-## 5 &#9679; Translation
+## 5 &#8226; Translation
 See Projects &#8658; Translator
 
 # Usage
