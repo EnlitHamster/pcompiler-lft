@@ -1,9 +1,9 @@
 # Usage
 To compile a single exercise, use `./es.sh <paragraph> <exercise> [force build]`  
-To compile a single file (with due dependencies) use `./exec.sh build <file name> [force build]`
-To test a project use `./exec.sh test <project>`
-To compile the entire project use `make`
-To clear the executables use `make clear`
+To compile a single file (with due dependencies) use `./exec.sh build <file name> [force build]`  
+To test a project use `./exec.sh test <project>`  
+To compile the entire project use `make`  
+To clear the executables use `make clear`  
 
 # Context-Free Grammar of P
 
