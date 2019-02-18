@@ -336,6 +336,10 @@ public class Translator {
 			else error("error in grammar, RELOP not recognised @ " + look);
 
 			code.emit(op, lfalse);
+		break;
+				
+		default:
+			error("error in grammar, bexpr'''' not recognised @ " + look);
 		}
 	}
 
