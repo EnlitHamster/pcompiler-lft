@@ -8,53 +8,53 @@ To clear the executables use `make clear`
 # Context-Free Grammar of P
 
 ```
-P   ->   SL $
+P    →    SL $
 
-SL  ->   S SL'
+SL   →    S SL'
 
-SL' ->   ; S SL'
-     |   ε
+SL'  →    ; S SL'
+     |    ε
 
-S   ->   id := E
-     |   print ( E )
-     |   read ( id )
-     |   case WL else S
-     |   while ( BO ) S
-     |   { SL }
+S    →    id := E
+     |    print ( E )
+     |    read ( id )
+     |    case WL else S
+     |    while ( BO ) S
+     |    { SL }
      
-WL  ->   W WL'
+WL   →    W WL'
 
-WL' ->   W WL'
-     |   ε
+WL'  →    W WL'
+     |    ε
 
-W   ->   when ( BO ) S
+W    →    when ( BO ) S
 
-BO  ->   BA BO'
+BO   →    BA BO'
 
-BO' ->   or BA BO'
-     |   ε
+BO'  →    or BA BO'
+     |    ε
 
-BA  ->   B BA'
+BA   →    B BA'
 
-BA' ->   and B BA'
-     |   ε
+BA'  →    and B BA'
+     |    ε
 
-B   ->   E RELOP E
-     |   ! ( E RELOP E )
+B    →    E RELOP E
+     |    ! ( E RELOP E )
      
-E   ->   T E'
+E    →    T E'
 
-E'  ->   + T E'
-     |   - T E'
-     |   ε
+E'   →    + T E'
+     |    - T E'
+     |    ε
      
-T   ->   F T'
+T    →    F T'
 
-T'  ->   * F T'
-     |   / F T'
-     |   ε
+T'   →    * F T'
+     |    / F T'
+     |    ε
 
-F   ->   ( E )
-     |   num
-     |   id
+F    →    ( E )
+     |    num
+     |    id
 ```
