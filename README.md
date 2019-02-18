@@ -27,7 +27,7 @@ The translator transforms the input code in actual Java ByteCode generating a .j
 
 # Exercises
 
-## 1 :: Automata
+## 1 &#9210; Automata
 - 1: `Binary` automaton
 - 2: `Id` automaton
 - 3, 4, 5: `Student` automaton
@@ -36,18 +36,18 @@ The translator transforms the input code in actual Java ByteCode generating a .j
 - 9: `Name` automaton
 - 10, 11: `Comments` automaton
 
-## 2 :: Lexing
-See Projects > Lexer
+## 2 &#9210; Lexing
+See Projects &#8658; Lexer
 
-## 3 :: Parsing
+## 3 &#9210; Parsing
 - 1: `Arithmetic` parser
 - 2: `Parser`
 
-## 4 :: Evaluation
-See Projects > ArithmeticEvaluator
+## 4 &#9210; Evaluation
+See Projects &#8658; ArithmeticEvaluator
 
-## 5 :: Translation
-See Projects > Translator
+## 5 &#9210; Translation
+See Projects &#8658; Translator
 
 # Usage
 To compile a single exercise, use `./es.sh <paragraph> [exercise] [force build]`  
