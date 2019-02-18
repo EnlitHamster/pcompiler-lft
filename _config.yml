@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
-title: p-compiler flt
+title: P compiler
+description: Compiler for a basic programming language (P) developped for my exam in Formal Languages and Translators @ DI UniTO 2018/2019
 show_downloads: true
